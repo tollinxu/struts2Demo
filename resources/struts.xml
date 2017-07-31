@@ -11,6 +11,9 @@
         <action name="index">
             <result>/index.jsp</result>
         </action>
+        <action name="hello" class="com.tony.Action.HelloWorldAction" method="excute">
+        	<result name="success">/Hello.jsp</result>
+        </action>
     </package>
 
 </struts>
